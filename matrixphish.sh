@@ -198,35 +198,25 @@ check_status() {
 	[ $? -eq 0 ] && echo -e "${GREEN}Online${WHITE}" && check_update || echo -e "${RED}Offline${WHITE}"
 }
 
-## Banner
+## Banner (Tog'rilangan va xavfsiz holatga keltirilgan)
 banner() {
-	cat <<- EOF
-   ${ORANGE} __  __       _        _       _____  _     _     _     
-   ${ORANGE}|  \/  |     | |      (_)     |  __ \| |   (_)   | |    
-   ${ORANGE}| \  / | __ _| |_ _ __ _  __  | |__) | |__  _ ___| |__  
-   ${ORANGE}| |\/| |/ _` | __| '__| | \ \ |  ___/| '_ \| / __| '_ \ 
-   ${ORANGE}| |  | | (_| | |_| |  | |  \ \| |    | | | | \__ \ | | |
-   ${ORANGE}|_|  |_|\__,_|\__|_|  |_|   \_\_|    |_| |_|_|___/_| |_|
-   ${ORANGE}                                                   
-   ${ORANGE}                                 ${RED}Version : ${__version__}
-
-
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
-	EOF
+	printf "${ORANGE} __  __       _        _      _____  _     _     _     \n"
+	printf "${ORANGE}|  \\\\/  |     | |      (_)    |  __ \\\\| |   (_)   | |    \n"
+	printf "${ORANGE}| \\\\  / | __ _| |_ _ __ _  __  | |__) | |__  _ ___| |__  \n"
+	printf "${ORANGE}| |\\\\/| |/ _\` | __| '__| | \\\\ \\\\ |  ___/| '_ \\\\| / __| '_ \\\\ \n"
+	printf "${ORANGE}| |  | | (_| | |_| |  | |  \\\\ \\\\| |    | | | | \\\\__ \\\\| | | |\n"
+	printf "${ORANGE}|_|  |_|\\\\__,_|\\\\__|_|  |_|   \\\\_\\\\_|    |_| |_|_|___/_| |_|\n"
+	printf "${ORANGE}                                                   \n"
+	printf "${ORANGE}                                 ${RED}Version : ${__version__}\n\n"
+	printf "${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}\n"
 }
 
-## Small Banner
+## Small Banner (Tog'rilangan)
 banner_small() {
-	cat <<- EOF
-		${BLUE}
-      ${BLUE}  ░█▄░▄█░█▀█░▀█▀░█▀▄░▀█▀░█░█░█▀█░█░█░▀█▀░█▀▀░█░█
-      ${BLUE}  ░█░█░█░█▀█░░█░░█▀▄░░█░░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█
-      ${BLUE}  ░▀░░░▀░▀░▀░░▀░░▀░▀░▀▀▀░▀░▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀${WHITE} ${__version__}
-	EOF
+	printf "${BLUE}  ░█▄░▄█░█▀█░▀█▀░█▀▄░▀█▀░█░█░█▀█░█░█░▀█▀░█▀▀░█░█\n"
+	printf "${BLUE}  ░█░█░█░█▀█░░█░░█▀▄░░█░░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█\n"
+	printf "${BLUE}  ░▀░░░▀░▀░▀░░▀░░▀░▀░▀▀▀░▀░▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀${WHITE} ${__version__}\n"
 }
-
-
-
 
 ## Dependencies
 dependencies() {
