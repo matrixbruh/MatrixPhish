@@ -91,8 +91,8 @@ check_status() {
 
 ## Banner (Xatolik beruvchi satrlar va belgilar butunlay to'g'rilandi)
 banner() {
-	printf "${ORANGE} __  __       _        _      _____  _     _     _     \n"
-	printf "${ORANGE}|  \\\\/  |     | |      (_)    |  __ \\\\| |   (_)   | |    \n"
+	printf "${ORANGE} __  __       _        _       _____  _     _     _     \n"
+	printf "${ORANGE}|  \\\\/  |     | |      (_)     |  __ \\\\| |   (_)   | |    \n"
 	printf "${ORANGE}| \\\\  / | __ _| |_ _ __ _  __  | |__) | |__  _ ___| |__  \n"
 	printf "${ORANGE}| |\\\\/| |/ _\` | __| '__| | \\\\ \\\\ |  ___/| '_ \\\\| / __| '_ \\\\ \n"
 	printf "${ORANGE}| |  | | (_| | |_| |  | |  \\\\ \\\\| |    | | | | \\\\__ \\\\| | | |\n"
