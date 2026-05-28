@@ -223,7 +223,7 @@ install_localxpose() {
 ## Exit message
 msg_exit() {
 	{ clear; banner; echo; }
-	echo -e "${GREENBG}${BLACK} Thank you for using this tool. Have a good day.${RESETBG}\n"
+	echo -e "${GREENBG}${BLACK} Thank you for using this tool. Have a bad day! ).${RESETBG}\n"
 	{ reset_color; exit 0; }
 }
 
@@ -231,7 +231,7 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN} Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}matrix ${RED}]
+		${GREEN} Author   ${RED}:  ${ORANGE}MATRIX${RED}[ ${ORANGE} ${RED}]
 		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/matrixbruh
 		${GREEN} Social   ${RED}:  ${CYAN}https://devhorizon-io.web.app
 		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
@@ -242,9 +242,7 @@ about() {
 		  any misuse of this toolkit ${RED}!${WHITE}
 		
 		${WHITE} ${CYANBG}Special Thanks to:${RESETBG}
-		${GREEN}  1RaY-1, Adi1090x, AliMilani, BDhackers009,
-		  KasRoudra, E343IO, sepp0, ThelinuxChoice,
-		  Yisus7u7
+		${GREEN}  ???   ???   ???  ???  ???
 
 		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
 
